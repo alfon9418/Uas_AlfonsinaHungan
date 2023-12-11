@@ -6,32 +6,18 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function app()
     {
-        return view('pages.home.index');
+        return view("layouts.home.app");
+
     }
-    public function about()
-    {
-        return view('pages.home.about');
-    }
-    public function alumni()
-    {
-        return view('pages.home.alumni');
-    }
-    public function contact()
-    {
-        return view('pages.home.contact');
-    }
-    public function mahasiswa()
-    {
-        return view('pages.home.mahasiswa');
-    }
-    public function profil()
-    {
-        return view('pages.home.profil');
-    }
-    public function services()
-    {
-        return view('pages.home.services');
-    }
+    // public function products()
+    // {
+    //     return view("layouts.home.products");
+    // }
+    // public function store()
+    // {
+    //     return view("layouts.home.store");
+    
+   
 }
